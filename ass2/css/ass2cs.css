@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+  
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* body{
+    background-color: rgb(226, 226, 217);
+} */
+header{
+    
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+nav{
+    box-shadow: 10px 10px 10px rgba(0.5,0.5,0.5,0.5);
+    display: flex;
+}
+nav ul{
+    display:flex;
+    justify-content: start;
+    align-items: center; 
+    height: 58px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+ 
+nav ul li{
+        list-style-type: none;
+        padding: 0 23px;
+}
+nav ul li a{
+    color:rgb(16, 13, 13);
+    text-decoration: none;
+}
+nav ul li a:hover{
+        font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+        border-radius: 5px;
+        width: 30vw;
+        height: 27px;
+        margin: 0 16px 0 56px;
+        padding: 0 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900; 
+}
+.slider{
+    box-shadow: 10px 10px 10px black;
+    width: 50vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider2{
+    box-shadow: 10px 10px 10px black;
+
+    width: 60vw;
+    margin: 15px  ;
+    overflow: hidden;
+}
+.slider2 img{
+    margin-left: 245px;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+     
+} 
+.card-item{
+    box-shadow: 10px 10px 10px  black;
+
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+
+}
+.container{
+    min-height: calc(100vh - 58px -12vh);
+}
+
+
+footer{
+    height: 8vh;
+    background-color: rgb(46, 46, 44);
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.my-1{
+    margin: 5px 0;
+}
+.my-2{
+    border: 2px solid black;
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+}
